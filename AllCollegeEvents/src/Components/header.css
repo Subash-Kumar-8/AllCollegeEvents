@@ -37,3 +37,7 @@
 .profileichead{
     cursor: pointer;
 }
+
+.menu {
+    width: 300px;
+}
