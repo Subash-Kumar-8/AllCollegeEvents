@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+}
+
+.container img{
+    height: 100%;
+    width: 75%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.form input {
+    height: 30px;
+    width: 500px;
+}
+
+.form Button{
+    margin-top: 50px;
+    width: 400px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.account h1{
+    color: #a129f5;
+    cursor: pointer;
+}

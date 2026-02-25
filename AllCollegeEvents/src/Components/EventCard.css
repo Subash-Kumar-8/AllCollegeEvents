@@ -1,0 +1,171 @@
+.eventBox{
+  width: 1100px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 5px;
+}
+
+.card {
+  min-width: 320px;
+  flex: 0 0 auto;
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1.5px solid #e9d5ff;
+  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(124, 58, 237, 0.15);
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-group {
+  display: flex;
+  gap: 8px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.icon-group svg:hover {
+  color: #7C3AED;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info svg {
+  font-size: 16px;
+}
+
+.status {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.status.online {
+  color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+}
+
+
+.status.offline {
+  color: #dc2626;
+  background: rgba(220, 38, 38, 0.1);
+}
+
+.status.hybrid {
+  color: #7C3AED;
+  background: rgba(124, 58, 237, 0.1);
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.visitors {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.type {
+  background: #ede9fe;
+  color: #7C3AED;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.location, .mode, .cost, .date, .visitors, .type {
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.chevronBox {
+  display: flex;
+  gap: 15px;
+}
+
+.seeAllBtn {
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,25 @@
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+.primary {
+  background-color: #a129f5;
+  color: #ffffff;
+  border: none;
+}
+
+.secondary {
+  background-color: #ffffff;
+  color: #a129f5;
+  border: 3px solid #a129f5;
+}
+
+.tertiary {
+  background-color: #ffffff;
+  color: gray;
+  border: 3px solid gray;
+}

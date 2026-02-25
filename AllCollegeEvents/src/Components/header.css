@@ -1,0 +1,39 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 1400px;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 109px;
+    width: 900px;
+    height: 64px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btnbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profileichead{
+    cursor: pointer;
+}

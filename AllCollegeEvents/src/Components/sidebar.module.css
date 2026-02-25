@@ -1,0 +1,49 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    width: 500px;
+    height: 100%;
+    padding: 0 30px;
+    margin: 0px;
+    border: solid 1px gray;
+    border-radius: 30px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top h2 {
+    color: #7f00ff;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkContainer {
+    border-bottom: solid 2px gray;
+}
+
+.dropbox {
+    width: 400px;
+    height: 40px;
+    border: solid 2px gray;
+    border-radius: 5px;
+    font-size: 25px;
+    color: grey;
+}
+
+.date {
+    width: 300px;
+    height: 40px;
+    border: solid 2px gray;
+    border-radius: 5px;
+    font-size: 25px;
+    color: grey;
+}
